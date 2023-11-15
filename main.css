@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #454d6b;
+    color: aliceblue;
+}
+
+#divTelaCheia{
+    height: 70vh;      /*vh = view por rate - altura total da área disponível do dispositivo - h de height*/
+    display: flex;
+    justify-content: center;        /*esses 2 mexem com o flex, faz centralizar div*/
+    align-items: center;
+}
+
+
+#DivFooter{
+    height: 100px;      /*vh = view por rate - altura total da área disponível do dispositivo - h de height*/
+    display: block;
+    justify-content: center;        /*esses 2 mexem com o flex, faz centralizar div*/
+    align-items: center;
+    text-align: center;
+}
+
+.email{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+
+input[type = "checkbox"]{
+    border: #454d6b solid 1px !important; /*O important faz sobreescrever os do bootstrap - Gambiarra*/
+}
+
+.lista{
+    text-align: left;
+}
+
+.descricao p{
+    text-align: left;
+}
